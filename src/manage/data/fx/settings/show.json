@@ -1,0 +1,12 @@
+{
+  "setting": {
+    "limit": 1000,
+    "remain": 2000
+  },
+    "audit_setting": {
+      "audit_type": "2"
+  },
+    "audit_cost_setting": {
+      "audit_cost_amount": 1000.00
+    }
+}

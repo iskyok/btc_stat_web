@@ -1,0 +1,154 @@
+{
+  "new_count": 5,
+  "cancel_user": 0,
+  "add_user": 5,
+  "cumulate_user": 358,
+  "active_user": 0,
+  "cancel_point": 0,
+  "history_count": 350,
+  "user_list": [
+    {
+      "ref_date": "2017-03-20",
+      "cumulate_user": 351
+    },
+    {
+      "ref_date": "2017-03-21",
+      "cumulate_user": 350
+    },
+    {
+      "ref_date": "2017-03-22",
+      "cumulate_user": 30
+    },
+    {
+      "ref_date": "2017-03-23",
+      "cumulate_user": 353
+    },
+    {
+      "ref_date": "2017-03-24",
+      "cumulate_user": 29
+    }
+  ],
+  "user_list_sex": {
+    "man_count": 20,
+    "woman_count": 30,
+    "other_count": 45
+  },
+  "area_list": [
+    {
+      "province": "江苏",
+      "count": 15
+    },
+    {
+      "province": "北京",
+      "count": 32
+    },
+    {
+      "province": "四川",
+      "count": 9
+    },
+    {
+      "province": "广东",
+      "count": 23
+    },
+    {
+      "province": "山东",
+      "count": 14
+    },
+    {
+      "province": "浙江",
+      "count": 16
+    },
+    {
+      "province": "福建",
+      "count": 11
+    },
+    {
+      "province": "黑龙江",
+      "count": 6
+    },
+    {
+      "province": "陕西",
+      "count": 5
+    },
+    {
+      "province": "重庆",
+      "count": 6
+    },
+    {
+      "province": "内蒙古",
+      "count": 3
+    },
+    {
+      "province": "河南",
+      "count": 8
+    },
+    {
+      "province": "山西",
+      "count": 6
+    },
+    {
+      "province": "云南",
+      "count": 2
+    },
+    {
+      "province": "辽宁",
+      "count": 9
+    },
+    {
+      "province": "河北",
+      "count": 11
+    },
+    {
+      "province": "湖南",
+      "count": 9
+    },
+    {
+      "province": "上海",
+      "count": 5
+    },
+    {
+      "province": "江西",
+      "count": 5
+    },
+    {
+      "province": "湖北",
+      "count": 7
+    },
+    {
+      "province": "广西",
+      "count": 3
+    },
+    {
+      "province": "甘肃",
+      "count": 2
+    },
+    {
+      "province": "安徽",
+      "count": 3
+    },
+    {
+      "province": "香港",
+      "count": 1
+    },
+    {
+      "province": "贵州",
+      "count": 2
+    },
+    {
+      "province": "天津",
+      "count": 2
+    },
+    {
+      "province": "海南",
+      "count": 3
+    },
+    {
+      "province": "吉林",
+      "count": 2
+    },
+    {
+      "province": "宁夏",
+      "count": 1
+    }
+  ]
+}

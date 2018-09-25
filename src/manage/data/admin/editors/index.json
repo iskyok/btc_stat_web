@@ -1,0 +1,21 @@
+{
+  "editors": [
+    {
+      "id": 35,
+      "name": "郭士平",
+      "created_at": "2016-11-26 08:57:03",
+      "role": {
+          "id": 1,
+          "name": "管理员"
+        }
+    }
+  ],
+  "meta": {
+    "current_page": 1,
+    "next_page": "",
+    "prev_page": "",
+    "total_pages": 1,
+    "total_count": 6,
+    "per_page": 10
+  }
+}

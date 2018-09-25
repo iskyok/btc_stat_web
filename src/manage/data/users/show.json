@@ -1,0 +1,30 @@
+{
+  "id": 39,
+  "nickname": "hupoka",
+  "sex": "male",
+  "birthday": "",
+  "invite_code": "23ADH33",
+  "created_at": "2016-12-01 14:29:42",
+  "updated_at": "2016-12-01 14:34:46",
+  "percent": "",
+  "remark": "",
+  "trades_price_sum": "",
+  "trades_point": 180,
+  "level_modified_at": "",
+  "id_number": "",
+  "balance": 110,
+  "area": "北京/海淀区",
+  "label": "",
+  "card_number": "",
+  "status_name": "已审核",
+  "positive_pic": "image_url1",
+  "negative_pic": "image_url2",
+  "account": {
+    "email": "test@gmail.com",
+    "phone": "1861060028"
+  },
+  "level": {
+    "id": 1,
+    "name": "普通"
+  }
+}

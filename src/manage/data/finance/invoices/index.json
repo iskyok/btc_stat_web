@@ -1,0 +1,53 @@
+{
+  "invoices": [
+    {
+      "id": 109,
+      "amount": "54.0",
+      "taxpayer_code": "2121",
+      "created_at": "2017-08-12 17:25:43",
+      "name": "zu欧威",
+      "phone": null,
+      "user_type": "厂商",
+      "head_type_name": "公司抬头",
+      "invoice_type_name": "电子发票",
+      "current_status": "已确认",
+      "address": null,
+      "target": {
+        "phone": "18811499902"
+      }
+    },
+    {
+      "id": 110,
+      "amount": "53.1",
+      "taxpayer_code": "2121",
+      "created_at": "2017-08-12 17:25:54",
+      "name": null,
+      "phone": null,
+      "user_type": "厂商",
+      "head_type_name": "公司抬头",
+      "invoice_type_name": "电子发票",
+      "current_status": "待开票",
+      "address": null,
+      "target": {
+        "phone": "18811499902"
+      }
+    },
+    {
+      "id": 114,
+      "amount": "53.1",
+      "taxpayer_code": "2121",
+      "created_at": "2017-08-12 17:25:54",
+      "name": null,
+      "phone": null,
+      "user_type": "厂商",
+      "head_type_name": "公司抬头",
+      "invoice_type_name": "电子发票",
+      "current_status": "已发出",
+      "address": null,
+      "target": {
+        "phone": "18811499902"
+      }
+    }
+  ],
+  "meta": {}
+}

@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "freight_template_id":"模板id外键",
+  "region_id" : "目的地 运送地区",
+  "region_type" :" 地区类型(省份,城市,地区)",
+  "frist_item" :" 首件",
+  "reforwarding_item ": "续件",
+  "first_fee" :" 首费",
+  "reforwarding_fee" :" 续费",
+  "first_weight" :" 首重",
+  "reforwarding_weight" :" 续重",
+  "first_bulk" :" 首体积",
+  "reforwarding_bulk" :" 续体积",
+  "delivery_way" :" 运送方式",
+  "is_default?" :" 是否是默认运送方式",
+  "active?" :" 有效？",
+  "name":"名称",
+  "valuation_type":"按重量"
+}

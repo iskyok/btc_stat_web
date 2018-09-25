@@ -1,0 +1,30 @@
+{
+  "msg_count": [
+    {
+      "id": 27,
+      "subscribe_id": 1,
+      "msg_type": 1,
+      "msg_user": 1,
+      "msg_count": 3,
+      "count_interval": null,
+      "date_type": "day",
+      "ref_hour": null,
+      "ref_date": "2017-03-24",
+      "updated_at": "2017-03-25T16:00:03.000Z",
+      "created_at": "2017-03-25T16:00:03.000Z"
+    },
+    {
+      "id": 28,
+      "subscribe_id": 1,
+      "msg_type": 1,
+      "msg_user": 1,
+      "msg_count": 1,
+      "count_interval": null,
+      "date_type": "day",
+      "ref_hour": null,
+      "ref_date": "2017-03-26",
+      "updated_at": "2017-03-27T16:00:27.000Z",
+      "created_at": "2017-03-27T16:00:27.000Z"
+    }
+  ]
+}

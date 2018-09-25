@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "number": "000001026",
+  "name": "商城订单",
+  "optype_name": "商城",
+  "total_amount": 34.56,
+  "amount": 34.56,
+  "user": {
+    "name": "奥巴马"
+  },
+  "transations": {
+    "dealer_level": "2"
+  },
+  "state": "已退款",
+  "created_at": "1990-10-10",
+  "updated_at":"1994-01-10"
+}

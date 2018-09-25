@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <title>富熊电商后台</title>
+  <link rel="shortcut icon" href="/static/images/favicon.ico">
+  <script type="text/javascript">
+    var $host="/"
+    var head= document.getElementsByTagName('head')[0];
+    var script= document.createElement('script');
+    script.type= 'text/javascript';
+    script.src= $host+'faye/client.js';
+//    head.appendChild(script);
+//    var $client = new Faye.Client("/faye", {retry: 5, timeout: 120});
+  </script>
+</head>
+<body>
+<div id="app"></div>
+<script src="//cdn.bootcss.com/react/15.3.1/react.min.js"></script>
+<script src="//cdn.bootcss.com/react/15.3.1/react-dom.min.js"></script>
+<script src="<%= htmlWebpackPlugin.options.namespace %>/echarts.common.min.js"></script>
+<script src="/bundle.js"></script>
+<!-- built files will be auto injected -->
+</body>
+</html>

@@ -1,0 +1,97 @@
+{
+  "type": "config",
+  "product_type": "",
+  "product_platform": "",
+  "origin_product_id": "",
+  "fx_shipper_type": "",
+  "is_new_category": "1",
+  "category_type": "0",
+  "category_1": 2,
+  "category_2": "0",
+  "product_category": [],
+  "cid": "",
+  "shop_method": "1",
+  "attrs": null,
+  "tag": [],
+  "shipment": "0",
+  "disableShipment": false,
+  "stock": [
+    {
+      "id": 0,
+      "price": "99",
+      "stock_num": "11",
+      "origin_price": "0",
+      "code": "SJBM1",
+      "is_sell": 0,
+      "k1_id": 1,
+      "k1": "颜色",
+      "v1_id": 671,
+      "v1": "红",
+      "k2_id": 2,
+      "k2": "尺寸",
+      "v2_id": 23608,
+      "v2": "ss"
+    },
+    {
+      "id": 0,
+      "price": "99",
+      "stock_num": "11",
+      "origin_price": "0",
+      "code": "SJBM2",
+      "is_sell": 0,
+      "k1_id": 1,
+      "k1": "颜色",
+      "v1_id": 374,
+      "v1": "蓝",
+      "k2_id": 2,
+      "k2": "尺寸",
+      "v2_id": 23608,
+      "v2": "ss"
+    }
+  ],
+  "total_stock": 22,
+  "name": "我的商品",
+  "pic_list": [
+    "http://onbakfi98.bkt.clouddn.com/1490884888971.1743.jpeg"
+  ],
+  "price": "199.00",
+  "origin_price": "100",
+  "postage": "100.00",
+  "delivery": "0",
+  "delivery_template_id": 0,
+  "delivery_template_type": 0,
+  "content": "",
+  "sub_title": "商品简介",
+  "sku_name_1": {
+    "id": 1,
+    "is_show": true,
+    "text": "颜色"
+  },
+  "sku_name_1_value": [
+    {
+      "id": 671,
+      "text": "红",
+      "show_pic": true,
+      "pic_url": "http://onbakfi98.bkt.clouddn.com/1491273859665.8542.png"
+    },
+    {
+      "id": 374,
+      "text": "蓝",
+      "show_pic": true,
+      "pic_url": "http://onbakfi98.bkt.clouddn.com/1491273859665.8542.png"
+    }
+  ],
+  "sku_name_2": {
+    "id": 2,
+    "is_show": false,
+    "text": "尺寸"
+  },
+  "sku_name_2_value": [
+    {
+      "id": 23608,
+      "text": "ss",
+      "show_pic": false,
+      "pic_url": ""
+    }
+  ]
+}

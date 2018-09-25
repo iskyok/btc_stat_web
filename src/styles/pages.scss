@@ -1,0 +1,585 @@
+//产品修改样式
+//产品修改，产品规格样式
+.product_spec {
+  .product_spec_label {
+    line-height: 48px;
+    height: 48px;
+    font-weight: bolder;
+  }
+  .product_spec_select {
+    margin-left: 20px;
+  }
+  .product_spec_delete {
+    margin-top: 8px;
+    float: right;
+    .product_spec_delete_icon {
+      color: #765454;
+      font-size: 24px;
+      line-height: 26px;
+      margin-right: 1px;
+    }
+  }
+}
+
+//订单列表
+.order_list {
+  .ant-table-row {
+
+  }
+  .ant-table-row:hover {
+    background: none;
+  }
+  .ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+    padding: 0px
+  }
+  //列表头
+  > .header {
+    clear: both;
+    height: 50px;
+    line-height: 50px;
+    background: #f8f8f8;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    display: flex;
+    .item {
+      flex: 1;
+      text-align: center;
+      padding: 0 10px;
+      &.unit {
+        flex: 2;
+      }
+    }
+  }
+  //订单列表项
+  .order_item {
+    margin-bottom: 10px;
+    min-height: 60px;
+    > .header {
+      background: #f8f8f8;
+      height: 40px;
+      line-height: 40px;
+      padding-left: 10px;
+      margin-bottom: 10px;
+      .opt {
+        float: right;
+        margin-right: 15px;
+      }
+    }
+    > .body {
+      display: flex;
+      flex-direction: row;
+      clear: both;
+      overflow: hidden;
+      height: 100%;
+      text-align: left;
+      .column {
+        align-items: stretch;
+        flex: 1;
+        //width: 13.5%;
+        //float: left;
+        text-align: center;
+        border-right: 1px solid #CCCCCC;
+        &.units {
+          flex: 2;
+          zoom: 1;
+        }
+        &:last-child {
+          border-right: 0px;
+        }
+      }
+      .unit_item {
+        overflow: hidden;
+        zoom: 1;
+        padding: 0px 10px 0px 10px;
+        margin-bottom: 2px;
+      }
+    }
+    .unit_item {
+      .pic {
+        border: 1px solid #eee;
+        border-radius: 4px;
+        img {
+          width: 55px;
+          height: 55px;
+        }
+        float: left
+      }
+      .name {
+        float: left;
+        text-align: left;
+        margin-left: 10px;
+        width: 200px;
+      }
+      .info {
+        float: right
+      }
+    }
+    //.vline{
+    //   flex:1;
+    //  height: 100%;
+    //  float: left;
+    //  background-color:  #ccc;
+    //}
+  }
+}
+
+//产品规格库存样式
+.spec_wrap {
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 8px;
+  padding-bottom: 15px;
+  .tags {
+    margin-top: 16px;
+  }
+  .spec_container {
+    clear: both;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .sku_stock_wrap {
+    clear: both;
+  }
+  .tip {
+    color: red;
+  }
+  .spec {
+    width: 120px;
+    margin-right: 12px;
+  }
+  .sku_name_cell {
+    background: #f7f7f7;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    .close_btn {
+      display: none;
+      margin-top: 10px;
+    }
+    &:hover {
+      .close_btn {
+        display: block;
+      }
+    }
+  }
+  .sku_value_list {
+    position: relative;
+    .sku_value {
+      float: left;
+      width: 96px;
+      margin-right: 5px;
+      position: relative;
+      z-index: 0;
+      .close_btn {
+        position: absolute;
+        display: none;
+        cursor: pointer;
+        background: #000000;
+        opacity: 0.6;
+        padding: 2px;
+        border-radius: 50%;
+        top: -5px;
+        z-index: 10;
+        right: -5px;
+      }
+      &:hover {
+        .close_btn {
+          display: block;
+        }
+      }
+      button {
+        width: 96px;
+        overflow: hidden;
+      }
+    }
+  }
+  .value {
+    width: 240px;
+    margin-right: 12px;
+  }
+  .margin_t8 {
+    margin-top: 8px;
+  }
+  .show_img_content {
+    width: 100px;
+    height: 120px;
+    display: inline-block;
+    margin-right: 12px;
+  }
+  .show_img_title {
+    text-align: center
+  }
+  .stock_input {
+    width: 60px;
+  }
+}
+
+//产品详细
+.product_show {
+  width: 1440px;
+  .left {
+    width: 800px;
+    float: left;
+  }
+  .preview_editor {
+    overflow: auto;
+    margin: auto;
+    margin-left: 820px;
+    width: 400px;
+  }
+}
+
+// 查看二维码 companies
+.look_qrcode {
+  cursor: pointer;
+  color: #0f87dd;
+}
+
+// 提现界面   用户/厂商提现界面
+.finance_withdraws_index {
+  .export_btn {
+    float: right;
+  }
+}
+
+// APP首页数据设置
+.ad_banner_content {
+  width: 600px;
+  .ad_banner_item {
+    position: relative;
+    background-color: #f5f5f5;
+    width: 500px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: visible;
+    .ant-card-body { // ant 卡片 容器样式
+      padding: 8px 8px 0 8px;
+    }
+    .close_btn {
+      position: absolute;
+      display: none;
+      cursor: pointer;
+      background: #000000;
+      opacity: 0.6;
+      padding: 2px;
+      border-radius: 50%;
+      top: -5px;
+      z-index: 15;
+      right: -5px;
+    }
+    &:hover {
+      .close_btn {
+        display: block;
+      }
+      .close_btn:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// 商品选择  显示容器
+.select_product_list {
+
+  .show_image {
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+    border: 1px dashed #aaa;
+    border-radius: 3px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+    width: 86px;
+    height: 86px;
+    .image {
+      width: 80px;
+      height: 80px;
+      display: block;
+    }
+    .close_btn {
+      position: absolute;
+      display: none;
+      cursor: pointer;
+      background: #000000;
+      opacity: 0.6;
+      padding: 2px;
+      border-radius: 50%;
+      top: -5px;
+      z-index: 10;
+      right: -5px;
+    }
+    &:hover {
+      .close_btn {
+        display: block;
+      }
+      .close_btn:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .add_product_btn {
+    display: inline-block;
+    width: 84px;
+    height: 84px;
+    margin: 0;
+    .add_product_tip {
+      // 选择图片 文字
+    }
+    .add_product_icon {
+      margin-top: 20px;
+    }
+  }
+}
+
+// 拖拽元素公用属性
+.drag_items {
+  display: inline-block;
+  cursor: move;
+  opacity: 1;
+}
+
+.drag_item {
+  display: inline-block;
+  opacity: 0;
+}
+
+//商品分类界面样式
+.tag_header {
+  padding: 10px 0 20px 0;
+  .tag_details {
+    margin-left: 20px;
+  }
+
+}
+
+//新建商品分组界面
+.tags_new {
+  width: 1100px;
+  margin: 30px auto;
+  .tags_new_fenzu {
+    width: 600px;
+    float: right;
+    margin-bottom: 20px;
+    .tags_new_header {
+      float: left;
+      line-height: 28px;
+      margin-left: 70px;
+    }
+    .tags_input {
+      width: 400px;
+      float: left;
+      margin-left: 43px;
+    }
+    .tags_upload {
+      background-color: #090;
+      .ant-upload {
+        //margin-top:0;
+        padding-top: 0;
+        .ant-upload-text {
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
+
+// 促销系统， 满减活动样式
+.ump_reward_inner {
+  overflow-x: scroll;
+  .setting {
+    width: 80%;
+    min-width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .discount_way_inner {
+    min-width: 200px;
+    .discount_type_inner {
+      width: 400px;
+      height: 30px;
+      .check_group {
+        .check_item {
+          display: block;
+          height: 25px;
+          line-height: 25px;
+          .discount_input {
+            display: inline-block;
+            width: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.tags_new_h1 {
+  margin: 10px 0;
+}
+
+.special {
+  clear: both;
+  padding-top: 30px;
+}
+
+.tags_new_body {
+  //background-color: #090;
+  width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  .tags_upload {
+    overflow: hidden;
+    .tag_right_inner{
+      float: left;
+      .tags_right {
+        height: 480px;
+        width: 400px;
+        position: relative;
+        overflow: auto;
+        .tags_h2 {
+          position: absolute;
+          width: 100px;
+          height: 100px;
+          //background-color: #795da3;
+          overflow: hidden;
+        }
+        .tags_select {
+          position: absolute;
+          //background-color: #900;
+          right: 0;
+          width: 75%;
+        }
+        .tags_submit {
+          margin-top: 100px;
+          //background-color: #090;
+        }
+      }
+    }
+    .special_bnner {
+      height: 240px;
+    }
+    .tags_leftPreview {
+      border: 1px dashed #ddd;
+      width: 400px;
+      float: left;
+      //overflow: hidden;
+      overflow-y: scroll;
+      .tags_left_card {
+        width: 48%;
+        float: left;
+        margin: 1%;
+        .tags_card_img {
+          img {
+            display: block;
+          }
+        }
+        .tags_left_cardfooter {
+          padding: 8px;
+          height: 75px;
+          .tag_h3 {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+          .tag_p {
+            padding-top: 5px;
+            color: #900;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .left_margin {
+      margin-right: 70px;
+    }
+  }
+  .next_upload {
+    margin-top: 20px;
+  }
+}
+
+//
+.ump_limit_discount_inner {
+  .discount_cols_inner{
+    min-width: 470px;
+    max-width: 720px;
+    .discount_col {
+      //display: inline-block;
+
+      .input_item_content {
+        display: inline-block;
+        width: 30%;
+        min-width: 140px;
+        max-width: 230px;
+        margin-right:15px;
+      }
+    }
+    .last{
+      margin-right: 0;
+    }
+    .show_product {
+      max-width: 600px;
+      .show_product_info{
+        &>p{
+          text-indent: 12px;
+        }
+      }
+    }
+  }
+}
+
+.coin_header{
+  line-height: 32px;
+  height: 32px;
+  .item{
+    float: left;
+    margin-right: 20px;
+  }
+  h1{
+    margin-right: 10px;
+  }
+  .value{
+    padding-left: 10px
+  }
+
+  .coinprice {
+    font-size: 32px;
+    font-weight: bold;
+    .ant-tag{
+      margin-left: 5px;
+      font-size: 20px;
+    }
+    //margin-top: 18px;
+    //float: left;
+  }
+  .summary{
+    clear: both;
+    font-weight: 500;
+    color: #e40101;
+  }
+}
+.coin_show{
+  .coin_main{
+     .ant-card-body{
+      padding-left: 0;
+      padding-right: 0
+    }
+  }
+.coin_price_section{
+  .ant-card-body{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5px;
+  }
+}
+}
+
+.tags-red {
+  background: #e40101;
+}
+
+.tags-ico{
+  margin-left: 10px;
+}

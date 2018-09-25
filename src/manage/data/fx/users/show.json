@@ -1,0 +1,48 @@
+{
+  "id": 1,
+  "name": "奥巴马",
+  "account": {
+    "phone": "18813015535"
+  },
+  "level": {
+    "name": "普通合伙人"
+  },
+  "upgrade_state_html": "升级(普通合伙人)，待审核",
+  "prev_dealer": "11111111",
+  "total_amount": 45.56,
+  "info": {
+    "current_month_amount": 34.45,
+    "last_month_amount": 45.4,
+    "amount": 435.5,
+    "dealer1_count": 45,
+    "amount1": 45.5,
+    "dealer2_count": 45,
+    "amount2": 45.5,
+    "dealer3_count": 45,
+    "amount3": 45.5,
+    "state_name": "未通过",
+    "dealer":{
+      "id": 1,
+      "name": "fsd",
+      "account":{
+        "account": "18813...."
+      },
+      "level":{
+        "name": "已经"
+      },
+      "upgrade_state": 1,
+      "total_amount": 34.67,
+      "balance": 34.56,
+      "info": {
+        "dealer1_count": 45
+      },
+      "state_name": 3,
+      "created_at": "1999-10-19"
+    }
+  },
+  "fx_bang_amount": 34.54,
+  "invitation": "7caexn",
+  "qrcode_pic": "...",
+  "state_name": "通过",
+  "created_at": "1999-10-10"
+}

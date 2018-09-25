@@ -1,0 +1,7 @@
+let config={
+  qiniu_uptoken: "/api/admin/assets/uptoken",
+  qiniu: "http://img.mallbear.com",
+  host: "http://mallbear.com"
+}
+
+export const API_CONFIG = config;

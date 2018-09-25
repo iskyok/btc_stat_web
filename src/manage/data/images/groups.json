@@ -1,0 +1,12 @@
+{
+  "groups": [
+      {
+        "key": "default",
+        "name": "默认分组2"
+      },
+      {
+        "key": "my_group",
+        "name": "我的分组"
+      }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "withdraws": [
+    {
+      "id": 1,
+      "amount": 70,
+      "bank_name": null,
+      "bank_account": null,
+      "user_name": null,
+      "refuse_reason": null,
+      "created_at": "2017-06-26 13:43:20",
+      "status": null,
+      "user_type": "用户",
+      "target": {
+        "name": "兵哥哥",
+        "phone": "13527513526",
+        "amount": "28.06"
+      }
+    },
+    {
+      "id": 2,
+      "amount": 88.94,
+      "bank_name": null,
+      "bank_account": null,
+      "user_name": null,
+      "refuse_reason": null,
+      "created_at": "2017-07-01 09:49:33",
+      "status": null,
+      "user_type": "用户",
+      "target": {
+        "name": "妥妥",
+        "phone": "15313116551",
+        "amount": "120.36"
+      }
+    }
+  ],
+  "meta": {
+  }
+}

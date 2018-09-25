@@ -1,0 +1,38 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "二级类1",
+      "pic_image_url": "",
+      "current_attributes": [
+        {
+          "id": 3,
+          "name": "属性1"
+        },
+        {
+          "id": 4,
+          "name": "属性2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "二级类2",
+      "pic_image_url": "",
+      "parent": {
+        "id": 10,
+        "name": "root"
+      },
+      "current_attributes": [
+        {
+          "id": 3,
+          "name": "烟酒风格"
+        },
+        {
+          "id": 4,
+          "name": "烟酒品种"
+        }
+      ]
+    }
+  ]
+}

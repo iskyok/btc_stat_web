@@ -1,0 +1,19 @@
+{
+  "stores" : [
+    {
+      "id": 4,
+      "name": "孙文泽",
+      "logo": "",
+      "phone": "18811499902",
+      "consume_amount": "",
+      "mind_name": "",
+      "status_name": "未审核",
+      "category_name": "粤港菜"
+    }
+  ],
+  "meta":{
+    "per_page": 10,
+    "total_count": 0,
+    "total_pages": 0
+  }
+}

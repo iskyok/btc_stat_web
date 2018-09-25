@@ -1,0 +1,7 @@
+let config={
+  qiniu_uptoken: "/api/admin/assets/uptoken",
+  qiniu: "http://onbakfi98.bkt.clouddn.com",
+  host: "http://demo.mallbear.com"
+}
+
+export const API_CONFIG = config;

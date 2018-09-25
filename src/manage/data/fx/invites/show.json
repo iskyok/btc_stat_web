@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "user": {
+    "name": "奥巴马"
+  },
+  "user_level": "普通合伙人",
+  "used_byer": {
+    "name": "普京"
+  },
+  "used_byer_level": "普通合伙人",
+  "created_at": "1990-10-10"
+}

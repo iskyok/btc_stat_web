@@ -1,0 +1,31 @@
+{
+  "comments": [
+    {
+      "id": 8,
+      "title": "评论",
+      "body": "宝贝儿非常漂亮，包装精美，卖家服务态度很好，就是定制的时间要久一些，总体来说这个价格很赞",
+      "score": 5,
+      "created_at": "2016-02-26 09:30:15",
+      "status": 1,
+      "status_format": "审核中",
+      "comment_images_url": ["http://i2.muimg.com/571684/41b21cb8286c00d0.png",
+        "http://i1.piimg.com/571684/995a58b72de1cc36.png"],
+      "product_name": "ssssssssssssssssss",
+      "user_name": "pinglunren"
+    },
+    {
+      "id": 7,
+      "title": "评论",
+      "body": "款式很漂亮，主要是可以自己选喜欢的蜜蜡，感谢客服的耐心，希望下次有更多优惠",
+      "score": 5,
+      "created_at": "2016-02-26 09:23:19",
+      "status": 0,
+      "status_format": "",
+      "comment_images_url": [],
+      "product_name": "ssssssssssssssssss",
+      "user_name": "pinglunren"
+    }
+  ],
+  "meta": {
+  }
+}

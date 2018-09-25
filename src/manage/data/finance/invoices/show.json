@@ -1,0 +1,16 @@
+{
+  "id": 109,
+  "amount": "54.0",
+  "taxpayer_code": "2121",
+  "created_at": "2017-08-12 17:25:43",
+  "name": "zu欧威",
+  "phone": "13522001398",
+  "user_type": "厂商",
+  "head_type_name": "公司抬头",
+  "invoice_type_name": "电子发票",
+  "current_status": "已确定",
+  "address": null,
+  "target": {
+    "phone": "18811499902"
+  }
+}

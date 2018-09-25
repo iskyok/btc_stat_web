@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "name": "奥巴马",
+  "sb_pic": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2411953504.jpg",
+  "yy_pic": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+  "fr_pic": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2411953504.jpg",
+  "yh_pic": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2411953504.jpg",
+  "other_pics": ["https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2411953504.jpg","https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"],
+  "total": "总数",
+  "postcode": "10010",
+  "contact": {
+    "name": "王老板",
+    "phone": "18610600218"
+  },
+  "tel": "010-6492932",
+  "address": "北京中关村",
+  "service_address": "北京中关村",
+  "phone": "0379-01010232",
+  "ht_attache": "普京",
+  "status_name": "已审核"
+}

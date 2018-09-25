@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "account":  "账户",
+  "user": {
+    "name": "aobam"
+  },
+  "date": "5",
+  "total_amount": 34.56,
+  "amount": 34,
+  "balance_income": 34.56,
+  "state_name": "已结算",
+  "created_at": "创建时间"
+}

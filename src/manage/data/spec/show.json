@@ -1,0 +1,35 @@
+[{
+  "label": "尺寸",
+  "value": "size",
+  "key": "size",
+  "children": [{
+    "label": "m",
+    "value": "size_m",
+    "key": "size_m"
+  },{
+    "label": "xl",
+    "value": "size_xl",
+    "key": "size_xl"
+  },{
+    "label": "xxl",
+    "value": "size_xxl",
+    "key": "size_xxl"
+  }]
+}, {
+  "label": "颜色",
+  "value": "color",
+  "key": "color",
+  "children": [{
+    "label": "深绿",
+    "value": "deep_green",
+    "key": "deep_green"
+  }, {
+    "label": "红色",
+    "value": "red",
+    "key": "red"
+  }, {
+    "label": "白色",
+    "value": "write",
+    "key": "write"
+  }]
+}]

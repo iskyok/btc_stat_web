@@ -1,0 +1,36 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "name": "image1",
+      "value":true,
+      "checked":true,
+      "src": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
+      "belone": "default"
+    },
+    {
+      "id": 2,
+      "name": "image2",
+      "value":false,
+      "checked":false,
+      "src": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2411953504.jpg",
+      "belone": "default"
+    },
+    {
+      "id": 3,
+      "name": "image3",
+      "value":false,
+      "checked":false,
+      "src": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2411622421.jpg",
+      "belone": "group1"
+    }
+  ],
+  "meta": {
+    "current_page": 1,
+    "next_page": "",
+    "prev_page": "",
+    "total_pages": 1,
+    "total_count": 6,
+    "per_page": 10
+  }
+}

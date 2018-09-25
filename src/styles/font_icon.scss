@@ -1,0 +1,47 @@
+@font-face {font-family: "iconfont";
+  src: url('../static/fonts/iconfont.eot'); /* IE9*/
+  src: url('../static/fonts/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../static/fonts/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('../static/fonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../static/fonts/iconfont.svg#antion_user') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-style:normal;
+  min-width: 14px;
+  margin-right: 8px;
+  display: inline-block;
+  font-style: normal;
+  vertical-align: baseline;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfont-yonghuguanli:before { content: "\e6fd"; }
+
+.iconfont-chanpinguanli:before { content: "\e6fe"; }
+
+.iconfont-dingdanzhongxin:before { content: "\e700"; }
+
+.iconfont-gongchangguanli:before { content: "\e701"; }
+
+.iconfont-gongsiguanli:before { content: "\e702"; }
+
+.iconfont-shangjiaguanli:before { content: "\e703"; }
+
+.iconfont-caiwuguanli:before { content: "\e704"; }
+
+.iconfont-yemianguanli:before { content: "\e705"; }
+
+.iconfont-xitongguanli:before { content: "\e706"; }
+
+.iconfont-cuxiaoxitong:before { content: "\e707"; }
+
+.iconfont-quanxianguanli:before { content: "\e708"; }
+
+.iconfont-guanxiguanli:before { content: "\e709"; }
+
+.iconfont-tongjixitong:before { content: "\e70b"; }
+

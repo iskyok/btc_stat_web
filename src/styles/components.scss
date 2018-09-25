@@ -1,0 +1,361 @@
+//键值对展示
+.explain-strong{
+  color: #f50;
+}
+.kv_list{
+  .item{
+    span{
+      font-size: 14px;
+      display: inline-block;
+    }
+    .key{
+      width: 100px;
+      text-align: right;
+    }
+    .value{
+      width: 100px;
+      text-align: left;
+    }
+  }
+  &.label_kv_list{
+    >.item{
+      .key {
+        width: 150px;
+        &:after {
+          content: ":";
+          margin: 0 8px 0 2px;
+          position: relative;
+          top: -0.5px;
+        }
+      }
+      .value{
+        vertical-align: top;
+        width: 400px;
+      }
+      margin-bottom: 10px;
+    }
+
+  }
+}
+//垂直cardlist
+.vertical_card_list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  //justify-content: space-around;
+  align-items: center;
+  background: #f8f8f8;
+  color:#666;
+  padding: 10px 0px;
+  >.item {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #dddddd;
+    &:last-child{
+      border: none;
+    }
+    .title {
+      font-size: 16px;
+    }
+    .content {
+      padding: 0 10px;
+      font-size: 16px;
+    }
+  }
+}
+.card_list{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding:5px; /* this */
+  margin: 0px -10px;
+  color: white;
+  .item {
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background: #47afae;
+    min-width: 120px;
+    margin: 5px;
+    flex: 1;
+    span {
+      text-align: center;
+      align-items: center;
+      align-content: center;
+      align-self: center;
+    }
+    .title {
+      padding: 10px;
+      color: white;
+      background: #2685a0;
+      width: 100%;
+      //font-size: 16px;
+    }
+    .content {
+      height: 70px;
+      line-height: 70px;
+      padding: 0 10px;
+      font-size: 22px;
+    }
+  }
+}
+//上传组件
+.ant-upload-select-picture-card i {
+  font-size: 28px;
+  color: #999;
+  display: block;
+  margin:  0 auto;
+  margin-top: 30px;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+
+.single_upload{
+  position: relative;
+  .ant-upload.ant-upload-select-picture-card{
+    position: relative;
+  }
+  .ant-upload{
+    position: relative;
+  }
+  .ant-upload.ant-upload-select-picture-card .ant-upload{
+    margin-top: -20px;
+  }
+  .help{
+    text-align: center;
+    color: #ccc;
+  }
+  .error{
+    position: absolute;
+    line-height: 18px;
+    width: 100px;
+    text-align: center;
+    color: red;
+    bottom: 10px;
+  }
+  .tip{
+    position: absolute;
+    height: 18px;
+    line-height: 18px;
+    background-color: #666;
+    color: white;
+    opacity: 0.6;
+    bottom: -20px;
+    width: 100%;
+  }
+  &.inline{
+    display: inline-block;
+  }
+  //多图片 提示
+  .imgs_tip{
+    color: red;
+    padding-left: 12px;
+    padding-right:12px;
+  }
+  .shop_new_carousel_dots{
+    background-color: red;
+    top:50px;
+    >li{
+      display: inline-block;
+      float: left;
+    }
+  }
+}
+.avatar-uploader-trigger {
+  margin-top: 30px;
+  font-size: 28px;
+}
+.opts{
+  button,a{
+    margin-right: 5px;
+  }
+}
+.input70{
+  width: 70px;
+}
+//余额提现下面样式
+.balance{
+  display:inline-block;
+  width:33%;
+  border-right:1px solid #ccc;
+  padding-left: 12px;
+}
+
+//文本预览
+.preview_editor{
+  overflow: hidden;
+  width: 950px;
+  margin: 0 auto;
+  .html_preview{
+    width: 320px;
+    min-height: 300px;
+    padding: 5px;
+    float: left;
+    border: 1px dashed #ddd;
+    img{
+      max-width: 100%;
+    }
+  }
+  .editor{
+    position: relative;
+    width: 600px;
+    float: right;
+  }
+}
+
+.html_preview{
+  word-break: break-all;
+  img,video,audio {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  table td,table th{
+    padding: 5px 10px;
+    border: 1px solid #d8d8d8;
+    font-size: 16px;
+    vertical-align: top;
+    height: 18px;
+    float:right;
+  }
+}
+
+
+//图片资源选择器
+.image_check{
+  .error{
+    line-height: 18px;
+    width: 100px;
+    text-align: center;
+    color: red;
+    bottom: 10px;
+  }
+  button{
+    width: 96px;
+    height: 96px;
+    border: 1px dashed #d9d9d9;
+    background: #fbfbfb;
+  }
+}
+// 图片放大查看组件
+.single_upload {
+  .show_big_img {
+    width: 96px;
+    height: 96px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-right: 12px;
+    position: relative;
+    border-radius: 4px;
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      z-index: 1;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+    }
+    &:hover {
+      &:before {
+        opacity: 0.8;
+      }
+      .icon {
+        opacity: 1 !important;
+      }
+    }
+    .show_img {
+      width: 100%;
+      height: 100%;
+    }
+    .icon {
+      font-size: 34px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      color: white;
+      opacity: 0;
+      margin-left: -17px;
+      margin-top: -17px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    &.blank_img{
+      margin: 0 auto;
+      text-align: center;
+      vertical-align: top;
+      color: #ddd;
+    }
+  }
+}
+
+
+//列表组件，灰色背景色
+.dark_table_row{
+  background-color: #f0f0f0;
+}
+
+.time_count_down{
+  .day{
+    color: red;
+  }
+  .hours{
+    color: red;
+  }
+  .min{
+    color: red;
+  }
+  .sec{
+    color: red;
+  }
+}
+
+//list组件
+.live .lost {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 0 10px 10px;
+  font-size: 18px;
+  li {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #f8f8f8;
+    .live-date {
+      width: 85px;
+      float: left;
+    }
+    .live-info {
+      float: left;
+      width: 675px;
+      line-height: 25px;
+    }
+  }
+}
+.live-index-pull-bear {
+  width: 100%;
+  height: 15px;
+  padding-top: 15px;
+  .live-index-pull-bear a {
+    float: right;
+    line-height: 15px;
+    font-size: 14px;
+    color: #666;
+    letter-spacing: 0;
+    margin-right: 25px;
+    position: relative;
+  }
+}

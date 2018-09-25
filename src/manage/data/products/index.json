@@ -1,0 +1,21 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name":"华为麦芒5",
+      "pic": "https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2411953504.jpg",
+      "category":"电子消费/手机",
+      "price": 1800,
+      "discount": 1700,
+      "stock": 123,
+      "total_sale": 1222,
+      "shelfed_at": "1994-10-10",
+      "saled_at": "1994-10-10",
+      "onlined_at": "1994-10-10",
+      "destroyed_at": "1994-10-10",
+      "created_at": "1994-10-10"
+    }
+  ],
+  "meta": {
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "trade_id":"143",
+  "user":"华为",
+  "contacts":"北京",
+  "create_at":"19999999",
+  "state":"完成",
+  "product":"小米max pro",
+  "price":1500,
+  "phone":"12345678911",
+  "pay_way":"微信钱包",
+  "reason":"手机太烫",
+  "remarks":"鸡蛋都熟了"
+}

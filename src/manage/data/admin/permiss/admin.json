@@ -1,0 +1,41 @@
+{
+  "menus": [
+    {
+      "name": "side_users",
+      "label": "用户管理",
+      "permissions": [
+        {
+          "id": 464,
+          "name": "menu_admin_users",
+          "label": "实名认证"
+        }
+      ]
+    },
+    {
+      "name": "side_products",
+      "label": "产品管理",
+      "permissions": [
+        {
+          "id": 466,
+          "name": "menu_admin_shop_products",
+          "label": "产品列表"
+        },
+        {
+          "id": 467,
+          "name": "menu_admin_shop_brands",
+          "label": "品牌审核"
+        },
+        {
+          "id": 468,
+          "name": "menu_admin_shop_comments",
+          "label": "商品评价"
+        },
+        {
+          "id": 469,
+          "name": "menu_admin_shop_producttags",
+          "label": "商品分组"
+        }
+      ]
+    }
+  ]
+}
